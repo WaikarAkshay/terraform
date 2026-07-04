@@ -1,0 +1,7 @@
+region             = "us-east-2"
+vpc_name           = "vpc-practice"
+cluster_name       = "EKS-cluster-terraform"
+cluster_version    = "1.34"
+node_instance_type = "t3.medium"
+node_desired_count = "3"
+max_count          = "5"
